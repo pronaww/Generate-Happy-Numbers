@@ -4,7 +4,7 @@ This assignment involves writing ARM assembly language program to generate Happy
 
 A program in C for generating Happy Numbers with up to 4 digits is given below. This exploits the fact that 1 and 7 are the only two Happy Numbers with a single digit. Here the numbers are stored in binary coded decimal (BCD) form - one digit per word. In assembly language, one byte could be used for storing one digit.
 
-'''
+```
 #include <stdio.h>
 
 int zero [4] = {0, 0, 0, 0};
@@ -70,4 +70,4 @@ add_BCD (x, x, one);
 }
 return (0);
 }
-'''
+```
